@@ -18,7 +18,9 @@ if (!isset($_SESSION['user'])) {
     <p>Nom : <?= htmlspecialchars($_SESSION['nom']) ?></p>
     <p>Prénom : <?= htmlspecialchars($_SESSION['prenom']) ?></p>
 </div>
-<a href="./logout.php">Déconnexion</a>
+<div class="text-center">
+    <a class="btn btn-danger my-5" href="./logout.php">Déconnexion</a>
+</div>
 
 
 <?php
